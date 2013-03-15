@@ -2,10 +2,10 @@
 <!-- Create by Sanjo (https://github.com/Sanjo) -->
 <!-- Important: The name of this file must match the name of the user defined language of ArmA 3. -->
 <NotepadPlus>
-	<AutoComplete language="SQF">
+    <AutoComplete language="SQF">
         <!-- Unfortunately the space character doesn't work as startFunc character. So function paramter hints are currently not possible. -->
-		<Environment ignoreCase="yes" startFunc="" stopFunc="" paramSeparator="," terminal=";" additionalWordChar=""/>
-		<!-- The following items should be alphabetically ordered. -->
+        <Environment ignoreCase="yes" startFunc="" stopFunc="" paramSeparator="," terminal=";" additionalWordChar=""/>
+        <!-- The following items should be alphabetically ordered. -->
         <KeyWord name="abs" />
         <KeyWord name="accTime" />
         <KeyWord name="acos" />
@@ -1988,5 +1988,5 @@
         <KeyWord name="worldName" />
         <KeyWord name="worldToModel" />
         <KeyWord name="worldToScreen" />
-	</AutoComplete>
+    </AutoComplete>
 </NotepadPlus>
