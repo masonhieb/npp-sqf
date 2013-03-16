@@ -29,3 +29,14 @@ The steps in the section "Syntax Highlighting" are required for auto completion.
 ## How to modify styles
 
 You can modify the styles via "Language -> Define your own Language". Select "SQF" (under "User language").
+
+### Custom background color and font
+
+Open "Settings -> Style Configurator". Set the background color and/or font under "Global Styles -> Default style".
+
+### Themes
+
+In the themes folder there are ready to use styles you can use instead of the default styles.  
+Open the "autocompletion/SQF.xml" and replace the "<Styles>...</Styles>" section with the content of one of the files in the themes folder.  
+After this, import your modified "autocompletion/SQF.xml" into Notepad++ (see section "Syntax Highlighting").  
+You may remove your existing styles first with "Language -> Define your own Language -> Remove".  
